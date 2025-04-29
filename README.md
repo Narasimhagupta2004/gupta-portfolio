@@ -1,5 +1,5 @@
 To install the project dependencies 
-npm install
+-  npm install
 
 To run the project
-npm run dev
+-  npm run dev
