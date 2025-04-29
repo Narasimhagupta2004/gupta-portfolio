@@ -1,0 +1,396 @@
+{
+  "heroData": {
+    "bgImgLink": "/images/background/hero-bg.jpg",
+    "imgLink": "/images/section/gupta-image.jpg",
+    "title": "NarasimhaGupta <br /> Bandaru",
+    "subTitle": "Hello, I'm",
+    "designation": "Full Stack Developer"
+  },
+  "aboutData": {
+    "imgLink": "/images/section/gupta.jpg",
+    "cvPdf": "https://drive.google.com/file/d/1pO6XQYZxnlETHJj95ZyXwQoVbbL2wsVl/view?usp=sharing",
+    "title": "Hi There! I'm Bandaru NarasimhaGupta",
+    "subtitle": "Full Stack Developer",
+    "text": "I am a passionate Full Stack Developer with expertise in both frontend and backend technologies. I specialize in creating responsive web applications using modern frameworks and technologies. My goal is to build efficient, scalable, and user-friendly applications that solve real-world problems.",
+    "details": [
+      {
+        "title": "Email",
+        "info": "narasimhagupta2004@gmail.com"
+      },
+      {
+        "title": "Phone",
+        "info": "+91 9676336741"
+      },
+      {
+        "title": "Location",
+        "info": "Punjab, India"
+      },
+      {
+        "title": "Languages",
+        "info": "English, Telugu"
+      }
+    ]
+  },
+  "skillData": {
+    "technicalSkills": {
+      "title": "Technical Skills",
+      "text": "I possess a diverse set of technical skills that enable me to build robust and scalable applications. My expertise spans across multiple programming languages, frameworks, and tools.",
+      "skills": [
+        {
+          "title": "C++",
+          "progress": "90%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "200"
+        },
+        {
+          "title": "Java",
+          "progress": "70%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "200"
+        },
+        {
+          "title": "JavaScript",
+          "progress": "85%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "300"
+        },
+        {
+          "title": "React.js",
+          "progress": "85%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "400"
+        },
+        {
+          "title": "Node.js",
+          "progress": "80%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "500"
+        },
+        {
+          "title": "MongoDB",
+          "progress": "80%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "600"
+        }
+      ]
+    },
+    "nonTechnicalSkills": {
+      "title": "Non-Technical Skills",
+      "text": "Beyond technical expertise, I possess a range of soft skills that enhance my ability to work effectively in teams and deliver successful projects.",
+      "skills": [
+        {
+          "title": "Communication",
+          "progress": "90%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "200"
+        },
+        {
+          "title": "Team Collaboration",
+          "progress": "85%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "300"
+        },
+        {
+          "title": "Problem Solving",
+          "progress": "90%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "400"
+        },
+        {
+          "title": "Time Management",
+          "progress": "85%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "500"
+        },
+        {
+          "title": "Adaptability",
+          "progress": "90%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "600"
+        },
+        {
+          "title": "Leadership",
+          "progress": "80%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "700"
+        }
+      ]
+    }
+  },
+  "portfolioData": {
+    "title": "Projects",
+    "portfolioItems": [
+      {
+        "imgLink": "/images/portfolio/grocery.png",
+        "imgLinkLg": "/images/portfolio/grocery.png",
+        "images": [
+          "/images/portfolio/grocery.png"
+        ],
+        "title": "Ecommerce Grocery Shopping Website",
+        "subTitle": "Full Stack / MERN",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200",
+        "details": {
+          "description": "A full-featured e-commerce platform for grocery shopping with user authentication, product management, shopping cart, and payment integration.",
+          "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "Redux", "JWT Authentication"],
+          "features": [
+            "User authentication and authorization",
+            "Product catalog with search and filtering",
+            "Shopping cart functionality",
+            "Secure payment processing",
+            "Order tracking system",
+            "Admin dashboard for inventory management"
+          ],
+          "githubLink": "https://github.com/Narasimhagupta2004/GroceryHUB.git",
+          "liveDemo": "https://groceryhub-fy1l.onrender.com"
+        }
+      },
+      {
+        "imgLink": "/images/portfolio/Deal-FinderX.png",
+        "imgLinkLg": "/images/portfolio/Deal-FinderX.png",
+        "images": [
+          "/images/portfolio/Deal-FinderX.png"
+        ],
+        "title": "Deal Finder X Website",
+        "subTitle": "Frontend / Backend",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300",
+        "details": {
+          "description": "A web application that helps users find the best deals and discounts across various e-commerce platforms.",
+          "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "Web Scraping"],
+          "features": [
+            "Real-time deal tracking",
+            "Price comparison across platforms",
+            "User preferences and notifications",
+            "Deal sharing functionality",
+            "Analytics dashboard"
+          ],
+          "githubLink": "https://github.com/Narasimhagupta2004/DealFinder.git",
+          "liveDemo": "https://deal-finder-demo.com"
+        }
+      },
+      {
+        "imgLink": "/images/portfolio/event.png",
+        "imgLinkLg": "/images/portfolio/event.png",
+        "images": [
+          "/images/portfolio/event.png"
+        ],
+        "title": "Event Management Website",
+        "subTitle": "Frontend Development",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400",
+        "details": {
+          "description": "A comprehensive event management platform for organizing and managing various types of events.",
+          "technologies": ["React.js", "Firebase", "Material-UI", "Redux"],
+          "features": [
+            "Event creation and management",
+            "Ticket booking system",
+            "Event calendar and scheduling",
+            "Attendee management",
+            "Event analytics"
+          ],
+          "githubLink": "https://github.com/Narasimhagupta2004/Event-Elite-Planners.git",
+          "liveDemo": "https://event-management-demo.com"
+        }
+      },
+      {
+        "imgLink": "/images/portfolio/Qr-generator.png",
+        "imgLinkLg": "/images/portfolio/Qr-generator.png",
+        "images": [
+          "/images/portfolio/Qr-generator.png"
+        ],
+        "title": "QR-Generator",
+        "subTitle": "Full Stack Development",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500",
+        "details": {
+          "description": "A web application for generating and managing QR codes with various customization options.",
+          "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "QR Code API"],
+          "features": [
+            "Custom QR code generation",
+            "QR code history tracking",
+            "Bulk QR code generation",
+            "QR code analytics",
+            "Export functionality"
+          ],
+          "githubLink": "https://github.com/Narasimhagupta2004/Qr-Generator.git",
+          "liveDemo": "https://qr-generator-demo.com"
+        }
+      },
+      {
+        "imgLink": "/images/portfolio/todo.png",
+        "imgLinkLg": "/images/portfolio/todo.png",
+        "images": [
+          "/images/portfolio/Qr-generator.png"
+        ],
+        "title": "QR-Generator",
+        "subTitle": "Full Stack Development",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500",
+        "details": {
+          "description": "A web application for generating and managing QR codes with various customization options.",
+          "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "QR Code API"],
+          "features": [
+            "Task Creation and Management: Easily add, edit, and delete tasks with a user-friendly interface.",
+
+              "Task Categorization: Organize tasks into categories for better management and prioritization.",
+
+              "Due Dates and Reminders: Set due dates for tasks and receive notifications for upcoming deadlines.",
+
+              "Task Status Tracking : Mark tasks as completed or pending with simple toggle options.",
+
+              "Task History and Progress : Track completed tasks and monitor your progress over time.",
+
+              "Search and Filter: Quickly find tasks using search functionality or filter tasks based on categories, status, or due dates."
+          ],
+          "githubLink": "https://github.com/Narasimhagupta2004/MERN_TODO.git",
+          "liveDemo": "https://mern-todo.com"
+        }
+      },
+      {
+        "imgLink": "/images/portfolio/survey-tool.png",
+        "imgLinkLg": "/images/portfolio/survey-tool.png",
+        "images": [
+          "/images/portfolio/Qr-generator.png"
+        ],
+        "title": "QR-Generator",
+        "subTitle": "Full Stack Development",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500",
+        "details": {
+          "description": "A web application for generating and managing QR codes with various customization options.",
+          "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "QR Code API"],
+          "features": [
+            "Custom Surveys generation",
+            "Survey history tracking",
+            "Response  generation",
+            "Response analytics",
+            "Export functionality"
+          ],
+          "githubLink": "https://github.com/Narasimhagupta2004/Survey-tool.git",
+          "liveDemo": "https://github.com/Narasimhagupta2004/Survey-tool.git"
+        }
+      }
+    ]
+  },
+  "blogData": {
+    "useFor": "blog",
+    "sliderSetting": {
+      "infinite": true,
+      "speed": 500,
+      "slidesToShow": 3,
+      "slidesToScroll": 1,
+      "arrows": false,
+      "responsive": [
+        {
+          "breakpoint": 991,
+          "settings": {
+            "slidesToShow": 2,
+            "autoplay": true
+          }
+        },
+        {
+          "breakpoint": 767,
+          "settings": {
+            "slidesToShow": 1,
+            "autoplay": true
+          }
+        }
+      ]
+    },
+    "informations": [
+      {
+        "imgLink": "/images/blog/blog1.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/images/blog/blog2.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "What are the latest trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      },
+      {
+        "imgLink": "/images/blog/blog3.jpg",
+        "designation": "Admin",
+        "date": "07-03-2023",
+        "title": "Trends in Graphic design according to you?",
+        "href": "/blog/blog-details"
+      }
+    ]
+  },
+  "resumeData": {
+    "experienceTitle": "Experience",
+    "experience": [
+      {
+        "title": "Summer Training - MERN Stack Development",
+        "duration": "June 2024 - July 2024",
+        "subTitle": "CSE PATHSHALA",
+        "text": "During my summer training, I focused on developing full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). I gained hands-on experience in building dynamic front-end interfaces with React, creating RESTful APIs with Express and Node.js, and managing data storage with MongoDB. Throughout the project, I implemented user authentication, performed CRUD operations, and ensured seamless communication between the client and server sides. This training strengthened my understanding of full-stack development principles, improved my coding skills, and helped me build scalable, efficient, and user-friendly web applications."
+      }
+    ],
+    "educationTitle": "Education",
+    "education": [
+      {
+        "title": "Bachelor of Technology - Computer Science and Engineering",
+        "duration": "August 2022 - Present",
+        "subTitle": "Lovely Professional University, Punjab",
+        "text": "CGPA: 8.22"
+      },
+      {
+        "title": "Intermediate",
+        "duration": "April 2019 - March 2021",
+        "subTitle": "Narayana Junior College, Vishakapatnam",
+        "text": "Percentage: 96.4%"
+      },
+      {
+        "title": "Matriculation",
+        "duration": "April 2018 - March 2019",
+        "subTitle": "M J P A P B C W R School, Gajapathinagaram",
+        "text": "CGPA: 9.7"
+      }
+    ]
+  },
+  "contactData": {
+    "formTitle": "Get in Touch",
+    "title": "Contact Info",
+    "subTitle": "Connect with me on social media",
+    "text": "Feel free to reach out for collaborations or opportunities. I'm always open to discussing new projects and ideas.",
+    "email": "narasimhagupta2004@gmail.com",
+    "phone": "+91 9676336741",
+    "address": "Punjab, India"
+  },
+  "socialData": [
+    {
+      "icon": "linkedin",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/narasimhagupta2004"
+    },
+    {
+      "icon": "github",
+      "title": "GitHub",
+      "link": "https://github.com/Narasimhagupta2004"
+    }
+  ]
+}

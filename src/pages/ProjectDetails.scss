@@ -1,0 +1,258 @@
+@import '../sass/default/variable';
+
+.project-details {
+  padding: 100px 0;
+  background-color: $dark-color1;
+  color: $base-color3;
+
+  .project-header {
+    text-align: center;
+    margin-bottom: 60px;
+
+    .project-title {
+      font-size: 36px;
+      margin-bottom: 15px;
+      color: $base-color1;
+    }
+
+    .project-subtitle {
+      font-size: 18px;
+      color: $base-color2;
+    }
+  }
+
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    .project-image-section {
+      order: 1;
+      margin-bottom: 40px;
+
+      .slider-image {
+        img {
+          width: 100%;
+          height: 600px;
+          object-fit: cover;
+          border-radius: 8px;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+      }
+
+      // Slider customization
+      .slick-dots {
+        bottom: -30px;
+
+        li {
+          button:before {
+            color: $base-color1;
+            opacity: 0.5;
+            font-size: 10px;
+          }
+
+          &.slick-active button:before {
+            opacity: 1;
+          }
+        }
+      }
+
+      .slick-prev,
+      .slick-next {
+        z-index: 1;
+        width: 40px;
+        height: 40px;
+
+        &:before {
+          font-size: 40px;
+          opacity: 0.8;
+          color: $base-color1;
+        }
+
+        &:hover:before {
+          opacity: 1;
+        }
+      }
+
+      .slick-prev {
+        left: -50px;
+      }
+
+      .slick-next {
+        right: -50px;
+      }
+
+      @media (max-width: 1200px) {
+        .slick-prev {
+          left: 10px;
+        }
+
+        .slick-next {
+          right: 10px;
+        }
+      }
+    }
+
+    .project-info-section {
+      order: 2;
+      padding: 40px;
+      background-color: $dark-color2;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: $base-color1;
+      }
+
+      .project-description {
+        margin-bottom: 40px;
+        p {
+          line-height: 1.6;
+          color: $base-color2;
+          font-size: 16px;
+        }
+      }
+
+      .project-technologies {
+        margin-bottom: 40px;
+
+        .tech-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+
+          .tech-tag {
+            background-color: $dark-color3;
+            color: $base-color1;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+      }
+
+      .project-features {
+        margin-bottom: 40px;
+
+        ul {
+          list-style: none;
+          padding-left: 0;
+
+          li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 15px;
+            color: $base-color2;
+            font-size: 16px;
+
+            &::before {
+              content: '✓';
+              position: absolute;
+              left: 0;
+              color: $base-color1;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+      .project-links {
+        display: flex;
+        gap: 20px;
+        margin-top: 40px;
+
+        .btn {
+          padding: 12px 30px;
+          border-radius: 4px;
+          text-decoration: none;
+          font-weight: 500;
+          transition: all 0.3s ease;
+
+          &.btn-primary {
+            background-color: $base-color1;
+            color: $dark-color1;
+
+            &:hover {
+              background-color: darken($base-color1, 10%);
+              transform: translateY(-2px);
+            }
+          }
+
+          &.btn-secondary {
+            background-color: transparent;
+            border: 2px solid $base-color1;
+            color: $base-color1;
+
+            &:hover {
+              background-color: $base-color1;
+              color: $dark-color1;
+              transform: translateY(-2px);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .project-details {
+    padding: 60px 0;
+
+    .project-content {
+      gap: 40px;
+
+      .project-image-section {
+        .slider-image img {
+          height: 500px;
+        }
+      }
+
+      .project-info-section {
+        padding: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .project-details {
+    padding: 40px 0;
+
+    .project-header {
+      margin-bottom: 40px;
+
+      .project-title {
+        font-size: 28px;
+      }
+
+      .project-subtitle {
+        font-size: 16px;
+      }
+    }
+
+    .project-content {
+      .project-image-section {
+        .slider-image img {
+          height: 400px;
+        }
+      }
+
+      .project-info-section {
+        padding: 20px;
+
+        h2 {
+          font-size: 20px;
+        }
+
+        .project-links {
+          flex-direction: column;
+          gap: 15px;
+        }
+      }
+    }
+  }
+} 
